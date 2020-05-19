@@ -1,0 +1,18 @@
+.centeredTitle {
+    text-align: center;
+}
+
+.registers {
+    padding: 15px;
+    position: relative;
+}
+
+.buttons-register {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.area-login {
+    width: 400px;
+}
