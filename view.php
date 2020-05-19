@@ -3,7 +3,7 @@
     include 'check_session.php';
 
     $db = mysqli_select_db($conn, "birthday") or die("Error " . mysqli_error());
-    $sql = mysqli_query($conn, "SELECT * FROM birthday");
+    $sql = mysqli_query($conn, "SELECT * FROM $dbuser");
     while($row = mysqli_fetch_array($sql)) {
         $registers[] = $row;
      }

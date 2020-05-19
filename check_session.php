@@ -8,4 +8,5 @@
     }
     
     $logado = $_SESSION['name'];
+    $dbuser = "birthday_".$_SESSION['login'];
 ?>
